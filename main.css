@@ -183,7 +183,7 @@ header {
     overflow-x: hidden;
 }
 
-#main .main_mini_wrap {
+#main .main_mini_wraps {
     margin: 0 auto;
     padding: 115px 0 100px 0;
     width: 100%;
@@ -389,7 +389,7 @@ header {
     background-color: #edf3f8;
 }
 
-#main .main_mini_wrap06 {
+#main .main_mini_wras06 {
     display: flex;
     gap: 40px;
     margin: 0 auto;
@@ -462,6 +462,278 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+#main .main_mini_wrap {
+    display: flex;
+    text-align: center;
+    gap: 50px 20px;
+    margin: 0 auto;
+    padding: 95px 0 85px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+#main .main_mini_box03 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#main .tit_box03 {
+    padding: 0;
+    width: 100%;
+}
+
+#main .main_title04 {
+    padding: 0 0 40px;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 34px;
+    color: #003964;
+    line-height: 39px;
+}
+
+#main .main_quick_link_box {
+    width: 100%;
+}
+
+#main .main_quick_link_box ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#main .zoom {
+    width: 30%;
+}
+
+#main .monitor {
+    width: 30%;
+}
+
+#main .notice {
+    width: 30%;
+}
+
+#main .zoom a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .zoom a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+#main .monitor a {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .monitor a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+#main .notice a {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .notice a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+/*  */
+#main .zoom a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .zoom a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+#main .monitor1 {
+   margin: 28px 40px;
+}
+
+#main .monitor1 a {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .monitor1 img {
+     
+}
+
+#main .monitor1 a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+#main .notice1 img {
+    width: 101px;
+}
+
+#main .notice1 a {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .notice1 a span {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+#main .main_content_wrap04 {
+
+}
+
+#main .main_mini_wrap04 {
+    background: #053863 url("/img/bg-main-banner.png") no-repeat right 12% bottom -150%;
+}
+
+#main .main_banner_box04 {
+    margin: 0 auto;
+    padding: 17px 0 0;
+    width: 100%;
+    max-width: 1400px
+}
+
+#main .banner_con_box04 {
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+#main .banner_img_wrap {
+    max-width: 285px;
+}
+
+#main .banner_img_wrap img {
+    max-width: 100%;
+}
+
+#main .banner_txt_wrap {
+    padding: 35px 0 35px 30px;
+    width: 100%;
+}
+
+#main .tit_box04 {
+    padding: 0 0 45px;
+}
+
+#main .banner_tit01 {
+    padding: 0 0 10px;
+    font-weight: 200;
+    font-size: 24px;
+    color: #fff;
+    line-height: 29px;
+}
+
+#main .banner_tit02 {
+    font-weight: 200;
+    font-size: 40px;
+    color: #fff;
+    line-height: 45px;
+}
+
+#main .banner_tit02 span {
+    font-weight: 500;
+}
+
+#main .banner_sign_box {
+    float: right;
+    padding: 10px 90px 0 20px;
+    text-align: right;
+}
+
+#main .sign_txt {
+    font-weight: 200;
+    font-size: 18px;
+    color: #fff;
+    line-height: 23px;
+}
+
+#main .sign_txt img {
+    width: 90px;
+    mix-blend-mode: lighten;
+}
+
+#main .banner_lnk_box ul li {
+    display: inline-block;
+    padding: 10px 15px 10px 0;
+    background-color: #053863;
+}
+
+#main .banner_lnk_box ul li a {
+    display: block;
+    min-width: 192px;
+    padding: 13px 10px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#main .banner_lnk_box ul li a span {
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+}
+
+#main .banner_lnk_box ul li a span img {
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+#main
+
+#main
+
+#main
+
+#main
+
+#main
+
+#main
+
+#main
 
 #main
 
