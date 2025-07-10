@@ -80,7 +80,9 @@ header {
 }
 
 .sub_mn_box {
-    display: table;
+    /* width: 100vw;  배경 크기 조절 필요시*/
+    display: none;
+    /* display: table; */
     top: 100%;
     position: absolute;
     left: 0;
@@ -98,7 +100,7 @@ header {
     width: 230px;
     box-sizing: border-box;
     vertical-align: top;
-    background-image: url("../Office-for/img/bg-gnb-tit.png") no-repeat right -22px bottom -100px;
+    background: url("../Office-for/img/bg-gnb-tit.png") no-repeat right -22px bottom -100px;
 }
 
 .sub_mn_title span {
@@ -115,9 +117,10 @@ header {
     width: 100%;
     background-color: #fff;
     font-size: 0;
+    text-align: left;
 }
 
-.sub_mn li {
+.sub_mn > li {
     position: relative;
     display: inline-block;
     padding: 30px 28px 35px 0;
@@ -128,7 +131,7 @@ header {
     vertical-align: top;
 }
 
-.sub_mn li a {
+.sub_mn > li > a {
     display: block;
     position: relative;
     padding: 14px 15px;
@@ -148,14 +151,15 @@ header {
 }
 
 .sub_mn02 li {
-    padding: 0 0 7px
+    padding: 0 0 7px;
+    text-align: left;
 }
 
-.sub_mn02 li a {
+.sub_mn02 >li > a {
     display: block;
     position: relative;
     padding: 0 0 0 14px;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     color: #555;
     line-height: 21px;
