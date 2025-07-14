@@ -1,5 +1,6 @@
 #body_container {
     min-width: 800px;
+    overflow: hidden;
 }
 
 header {
@@ -1780,7 +1781,7 @@ footer {
 
     #main .banner_lnk_box ul li {
         padding: 10px 13px 10px 0;
-        width: calc(50% - 15px);
+        width: calc(50% - 17px);
     }
 
     #main .banner_lnk_box ul li a {
@@ -1858,7 +1859,7 @@ footer {
     }
 
     #main .main_mini_wrap08 {
-        padding: 40px 0 20px 10px;
+        padding: 40px 0 59px 10px;
         box-sizing: border-box;
     }
 
