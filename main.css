@@ -78,6 +78,10 @@ header {
     padding: 0 60px 0 0;
 }
 
+.gnb_ul > li:hover .sub_mn_box {
+  display: table;
+}
+
 .gnb_ul li a {
     position: relative;
     padding-bottom: 37px;
@@ -90,15 +94,14 @@ header {
 .sub_mn_box {
     /* width: 100vw;  배경 크기 조절 필요시*/
     display: none;
-    /* display: table; */
-    top: 100%;
     position: absolute;
+    top: 100%;
     left: 0;
-    z-index: 50;
+    background: #fff;
     width: 100%;
     min-height: 400px;
     table-layout: fixed;
-    overflow: hidden;
+    z-index: 100;
 }
 
 .sub_mn_title {
@@ -349,6 +352,9 @@ header {
     width: 100%;
     text-align: left;
     box-sizing: border-box;
+    /* display: none; */
+     z-index: 5;
+     background-color: #fff;
 }
 
 #main .swiper_container {
@@ -999,7 +1005,7 @@ header {
 
 }
 
-#main .mini_board_content {
+#main .mini_board_content1 {
     display: block;
     position: absolute;
     top: 90px;
@@ -1189,10 +1195,15 @@ footer {
     box-sizing: border-box;
 }
 
+.related_site li {
+    padding-bottom: 9px;
+}
+
 .related_site li a {
     font-size: 15px;
     color: #222;
     line-height: 20px;
+
 }
 
 .bottom_footer_wrap {
