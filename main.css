@@ -190,6 +190,17 @@ header {
     letter-spacing: -0.5px;
 }
 
+.sub_mn02 > li > a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
 .header_right_box {
     padding: 40px 0 0;
 }
