@@ -87,19 +87,19 @@ header {
     position: relative;
     padding-bottom: 37px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     line-height: 22px;
 }
 
 .sub_mn_box {
-    /* width: 100vw;  배경 크기 조절 필요시*/
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -250px;
+    right: 0px;
     background: #fff;
-    width: 100%;
+    width: 139%;
     min-height: 400px;
     table-layout: fixed;
     z-index: 100;
@@ -109,10 +109,17 @@ header {
     display: table-cell;
     position: relative;
     padding: 35px 15px 0 0;
-    width: 230px;
+    width: 38%;
     box-sizing: border-box;
     vertical-align: top;
-    background: url("../Office-for/img/bg-gnb-tit.png") no-repeat right -22px bottom -100px;
+    overflow: hidden;
+    /* color: #edf3f8; */
+    background-color: #edf3f8;
+}
+
+.sub_mn_title img {
+    position: absolute;
+    bottom: -100px;
 }
 
 .sub_mn_title span {
@@ -143,11 +150,16 @@ header {
     vertical-align: top;
 }
 
+.sub_mn > li:nth-child(2),
+.sub_mn > li:nth-child(3) {
+  margin-left: -39px;
+}
+
 .sub_mn > li > a {
     display: block;
     position: relative;
     padding: 14px 15px;
-    width: 100%;
+    width: 79%;
     border: 1px solid #ccc;
     background-color: #f8f9fb;
     font-weight: 400;
